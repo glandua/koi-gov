@@ -19,7 +19,7 @@ KOI is our collective infrastructure for creating coherent, transparent, and act
 
 | Document | Purpose |
 | -------- | ------- |
-| [`KOI.naming-convention-manifesto.v1.0.0.md`](./KOI.naming-convention-manifesto.v1.0.0.md) | Defines the KOI semantic naming schema, versioning practices, and governance process. |
+| [`KOI.naming-convention-manifesto.v1.0.0.md`](./KOI.regen-naming-convention-manifesto.v1.0.0.md) | Defines the KOI semantic naming schema, versioning practices, and governance process. |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) *(coming soon)* | Explains how to propose, pilot, and ratify changes to the KOI naming schema. |
 | [`changelog.md`](./changelog.md) *(coming soon)* | Tracks all approved changes and updates to the naming conventions. |
 
