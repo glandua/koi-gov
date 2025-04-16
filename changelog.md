@@ -39,6 +39,16 @@ This changelog tracks all officially ratified changes and updates to the KOI (Kn
 
 The following changes have been proposed and are pending further discussion, piloting, and formal approval:
 
+### [v1.1.0] - 2025-04-16 *(proposed)*
+
+#### New Feature: Property-Based KOI Naming
+
+- KOI objects may now be expressed using *semantic metadata fields* in rich tools (e.g., Notion).
+- This includes separating the `title` from metadata fields: `KOI Name`, `Type`, `Version`, etc.
+- Improves searchability, machine parsing, and human readability.
+- Documented in `docs/semantic-naming-properties.md`
+
+
 ### [v1.1.0] *(proposed)*
 - Add new object types:
   - `decision` – Official records of organizational decisions.
