@@ -79,6 +79,26 @@ The current KOI naming system follows this schema:
   * `Z` \= editorial or structural update only
 
 ---
+## 🧠 Alternate Format: Semantic Properties
+
+In addition to embedding KOI metadata into a single string (e.g., `core.memo.q2-sprint.v1.0.0`), KOI objects can now use *distributed properties* in tools that support it (e.g., Notion databases, YAML frontmatter, JSON-LD).
+
+Example in Notion:
+| Property    | Value                                                  |
+|-------------|--------------------------------------------------------|
+| KOI Name    | `core.objective.rnd-foundation-sprint.v2025-Q2.v0.1.4` |
+| Type        | `core.objective`                                       |
+| Relevance   | `core`                                                 |
+| Version     | `v2025-Q2.v0.1.4`                                       |
+| Status      | `active`                                               |
+
+**This enables:**
+- Machine-readability for AI agents and future KOI indexers
+- Human usability via clean, expressive titles
+- Flexible rendering across platforms
+
+For practical examples, see: [`docs/semantic-naming-properties.md`](./docs/semantic-naming-properties.md)
+
 
 ## **Rationale: Why This Naming Convention Exists**
 
